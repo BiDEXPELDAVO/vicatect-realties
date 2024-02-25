@@ -20,11 +20,13 @@
 
 #logo {
   float: inline-start;
-  margin: 0% 5%;
-  margin-top: 3.5%;
-  color: #000;
-  font-size: 70%;
-  font-weight: bold;
+  margin-left: 60px;
+  margin-right: 120px;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 43px;
+  color: rgba(241, 147, 59, 0.4);
+  font-size: 130%;
+  font-weight: bolder;
 }
 
 .logo {
@@ -41,7 +43,7 @@
 
 ul {
   float: inline-start;
-  width: 630px;
+  width: max-content;
   height: 100px;
   margin: 0;
   padding: 0;
@@ -62,7 +64,9 @@ ul li a {
   padding: 15px;
   font-size: 100%;
   text-decoration: none;
-  color: #fff;
+  color: black;
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li a:hover {
@@ -106,19 +110,11 @@ ul li ul li a:hover {
   font-size: 50%;
 }
 
-
-@media screen and (max-width: 1050px) {
-  #logo {
-    display: none;
-  }
-}
-
-
-
 @media screen and (max-width: 1220px) {
   ul {
     float: right;
-    width: 530px;
+    width: max-content;
+    margin-right: 3%;
   }
 
   ul li a {
@@ -128,28 +124,41 @@ ul li ul li a:hover {
     padding: 10px;
     font-size: 100%;
     text-decoration: none;
-    color: #fff;
   }
 
   #logo {
-    margin-left: 150px;
-    margin-top: 40px;
-    font-size: 150%;
+    margin-left: 20%;
+    margin-right: 0;
+    margin-top: 30px;
+    font-size: 200%;
   }
 }
-
 
 
 @media screen and (max-width: 1110px) {
   #logo {
-    margin-left: 100px;
-    margin-top: 40px;
-    font-size: 150%;
+    margin-left: 12%;
+    margin-top: 30px;
   }
 }
 
+@media screen and (max-width: 1050px) {
+  #logo {
+    margin-left: 6%;
+  }
+}
 
+@media screen and (max-width: 925px) {
+  #logo {
+    margin-left: 3%;
+  }
+}
 
+@media screen and (max-width: 870px) {
+  #logo {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 750px) {
   .list {
@@ -161,6 +170,7 @@ ul li ul li a:hover {
   ul {
     width: 100%;
     height: 100%;
+    margin-right: 0%;
     background-color: #d33e08;
   }
 
@@ -173,9 +183,9 @@ ul li ul li a:hover {
 
   #logo {
     display: block;
-    margin-top: 6%;
-    margin-left: 25%;
-    font-size: 100%;
+    margin-left: 12%;
+    margin-top: 24px;
+    font-size: 230%;
   }
 
   .hidden {
@@ -212,6 +222,7 @@ ul li ul li a:hover {
   }
 
   #menu-bar {
+    color: #000;
     display: block;
     position: absolute;
     right: 1.5%;
@@ -228,26 +239,52 @@ ul li ul li a:hover {
 
 @media screen and (max-width: 650px) {
   #logo {
-    margin-top: 40px;
-    margin-left: 20%;
+    margin-top: 24px;
+    margin-left: 8%;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  #logo {
+    margin-left: 4%;
   }
 }
 
 @media screen and (max-width: 550px) {
   #logo {
-    margin-left: 15%;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  #logo {
+    font-size: 150%;
+    margin-top: 34px;
+    margin-left: 3%;
   }
 }
 
 @media screen and (max-width: 440px) {
   #logo {
-    margin-left: 10%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  #logo {
+    margin-left: -5%;
   }
 }
 
 @media screen and (max-width: 390px) {
   #logo {
-    margin-left: 6%;
+    margin-left: -2%;
+    font-size: 100%;
+    margin-top: 40px;
   }
 }
 
